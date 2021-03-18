@@ -1,10 +1,11 @@
 <template>
     <div>
+
         <div :class="$style.container">
-            <BaseButton variant="primary"> Primary </BaseButton>
+            <BaseButton variant="primary" size="sm"> Primary </BaseButton>
             <BaseButton variant="secondary"> Secondary </BaseButton>
-            <BaseButton variant="warning"> Warning </BaseButton>
-            <BaseButton variant="danger"> Danger </BaseButton>
+            <BaseButton variant="warning" size="lg"> Warning </BaseButton>
+            <BaseButton variant="danger" size="md"> Danger </BaseButton>
         </div>
         <div :class="$style.container">
             <BaseTag variant="primary"> Primary </BaseTag>
